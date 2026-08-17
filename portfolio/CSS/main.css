@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif, system-ui;
+    background-color: #0f172a;
+    color: #f8fafc;
+    line-height: 1.6;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    background-color: #1e293b;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+header nav a {
+    color: #38bdf8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 800px;
+    margin: 4rem auto;
+    padding: 0 1rem;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.projects {
+    margin-top: 3rem;
+    background: #1e293b;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    color: #94a3b8;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.project-card {
+    background: #0f172a;
+    padding: 1.5rem;
+    border-radius: 6px;
+    border: 1px solid #334155;
+    text-align: left;
+}
+
+.project-card h4 {
+    color: #38bdf8;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.project-link {
+    display: inline-block;
+    margin-top: 0.75rem;
+    color: #38bdf8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-link:hover {
+    text-decoration: underline;
+}
+
+.release-status {
+    color: #fbbf24;
+    font-style: italic;
+    font-weight: bold;
+}
